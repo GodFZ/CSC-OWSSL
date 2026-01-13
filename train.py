@@ -276,7 +276,8 @@ if __name__ == "__main__":
     # ----------------------
 
     # ----------------------
-    # Get Teacher_label
+    # Get teacher labels from unlabeled data using teacher model
     # ----------------------
 
     train(model, train_loader, None, test_loader_unlabelled, args, text_features, tearcher_label)
+
